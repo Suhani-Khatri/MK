@@ -1,0 +1,365 @@
+
+ /* section 1 */
+
+ @font-face {
+    font-family: LibreFranklin-Regular;
+    src: url(fonts/LibreFranklin-Regular.ttf);
+  }
+  
+ @font-face {
+    font-family: Oswald-Bold;
+    src: url(fonts/Oswald-Bold.ttf);
+  }
+
+ @font-face {
+    font-family: LibreFranklin-Bold;
+    src: url(fonts/Oswald-Bold.ttf);
+  }
+
+ @font-face {
+    font-family: Oswald-Regular;
+    src: url(fonts/Oswald-Regular.ttf);
+  }
+
+.main{
+    padding: 0 50px;
+}
+
+.banner{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+ 
+}
+
+.container{
+    max-width: 1232px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content{
+    background-color: #ffffff;
+    margin: 0 67px 0 67px;
+    
+}
+
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 72px;
+    
+}
+
+
+.contact-us{
+    width: 225px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+    border: solid 1px #cec3b6;
+    border-radius: 25px;
+    
+}
+
+.mail-icon{
+    /* width: 18.8px;
+    height: 14.3px; */
+    /* margin: 3.3px 18.1px 0.4px 0; */
+    object-fit: contain;
+}
+
+.mail{
+    font-family: LibreFranklin-Regular;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555;
+}
+
+.logo{
+    /* width: 210px;
+    height: 42px; */
+    display: flex;
+    justify-self: center;
+    margin: 3px 0;
+    object-fit: contain;
+    opacity: 0.83;
+}
+
+.corner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-img{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.add-to-cart{
+     display: flex;
+    justify-content: space-around;
+    width: 160px;
+    border-radius: 20px;
+    padding: 20px ;
+    border: solid 1px #cec3b6;
+}
+
+.inner-content{
+    display: flex;
+}
+
+.mens-collection{
+    background-image: url(images/mensbg.png);
+    background-repeat: no-repeat;
+    width: 615px;
+    height: 661px;
+    display: flex;
+    object-fit: contain;
+}
+
+.mens-wear{
+    width: 414px;
+    height: 214px;
+    display: flex;
+    margin: 265px 40px 20px 100px;
+    opacity: 0.87;
+    background-color: #fff;
+}
+
+.sub-mens{
+    width: 393px;
+    height: 192px;
+    margin: 10px;
+    border: solid 1px #c8c8c8;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.collection{
+    width: 262px;
+    height: 53px; 
+     /* margin: 0 0 23px; */
+    font-family: Oswald-Bold;
+    margin:  26px 65px 20px;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.78;
+    letter-spacing: -0.76px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #232323;
+}
+.Rectangle-64 {
+    width: 170px;
+    height: 45px;
+    margin: 15px 50px 45px 100px;
+    border-radius: 15px;
+    background-color: black;
+}
+.shop-now{
+    font-family: LibreFranklin-Bold;
+    font-size: 14px;
+    margin: 5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.93;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.womens-collection{
+    background-image: url(images/womenbg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 616px;
+    height: 610px;
+    object-fit: contain;
+}
+
+/* section - 2 */
+
+.big-container{
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+.product-banner{
+    border-color: #ffffff;
+
+}
+.product-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 62px  0 0 0;
+}
+
+.new-product{
+    display: flex;
+    justify-content: space-around;
+}
+
+.line-left{
+    width: 48px;
+    height: 0;
+    margin: 27px 31px 0 0;
+    border: solid 1px #bbb;
+}
+
+.product-heading{
+    width: 245px;
+    height: 60px;
+    margin: 0 31.5px;
+    font-family: Oswald-Bold;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #232323;
+}
+
+.line-right{
+    width: 48px;
+    height: 0;
+    margin: 27px 0 0 31px;
+    border: solid 1px #bbb;
+}
+
+.description{
+    width: 715px;
+    height: 23px;
+    margin: 14px 0 0;
+    font-family: LibreFranklin-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #88888b;
+}
+
+.product-gallery{
+    display: flex;
+}
+
+.products{
+    width: 1087px;
+    height: 318px;
+    margin: 40px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.display1{
+    width: 247px;
+    height: 318.5px;
+    /* margin: 0 0 23.1px;
+    padding: 20px 20px 266.5px 193px;
+    object-fit: contain; */
+}
+
+.display2{
+    width: 247px;
+    height: 318.5px;
+    /* margin: 0 0 23.1px;
+    padding: 20px 20px 21.1px 85px;
+    object-fit: contain; */
+}
+
+.new-sale{
+    width: 212px;
+    height: 18px;
+    margin: 23.1px 30px 13.4px 5px;
+    font-family: LibreFranklin-Regular;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.87;
+    letter-spacing: 0.23px;
+    text-align: center;
+    color: #929292;
+}
+.pricing{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.old-price{
+    /* width: 32px;
+    height: 24px; */
+    margin: 0 9px 0 8px;
+    font-family: Oswald-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style:normal;
+    line-height: 1.75;
+    letter-spacing: 0.24px;
+    text-decoration:line-through;
+    text-align: left;
+    color: #b9b9b9;
+}
+.new-price{
+    width: 54px;
+    height: 24px;
+    margin: 0 0 0 9px;
+    font-family: Oswald-Bold;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #222;
+}
+.slidder{
+    display: flex;
+}
+
+.front-arrow{
+    width: 44px;
+    height: 44px;
+    /* margin: 0 22.7px 0 0;
+    padding: 16.4px 16.6px 16.9px 21.2px; */
+    background-color: #f1f1f1;
+}
+.back-arrow{
+    width: 44px;
+    height: 44px;
+    /* margin: 0 0 0 22.7px;
+    padding: 16.4px 19.9px 16.9px 17.8px; */
+    background-color: #f1f1f1;
+}
+
+/* .shopping-basket{
+    width: 34px;
+    height: 32px;
+    display: flex;
+    
+    padding: 8.5px 8.4px 8.8px 8.1px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+} */
+

@@ -1164,7 +1164,7 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 2.08;
-    letter-spacing: normal;
+    letter-spacing: normal; 
     text-align: left;
     color: #7e7e7e;
 }
@@ -1188,6 +1188,7 @@
         padding: 0 0px 0 25px;
     }
 
+    /*  */
     .subscribe-btn{
         margin: 0 25px 0 0;
 
